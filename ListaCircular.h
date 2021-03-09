@@ -1,6 +1,8 @@
 typedef struct{
   int matricula;
   float media;
+  float notas[3];
+
 }TInfo;
 
 typedef struct elem{
@@ -21,3 +23,4 @@ int InserirUltimaPosicao(TListaCircular *lista, TInfo info);
 int RemovePrimeiro(TListaCircular *lista);
 int RemoveUltimo(TListaCircular *lista);
 int tamanho(TListaCircular *lista);
+void imprimri(TListaCircular *lista);
